@@ -172,6 +172,17 @@ section {
   background-color: rgb(212, 233, 226);
 }
 
+.lgbt-section .text h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.lgbt-section .text h3 {
+  font-size: 19px;
+  line-height: 1.75;
+}
+
 .lgbt-section .image {
   width: 50%;
 }
@@ -181,8 +192,19 @@ section {
   width: 100%;
 }
 
-.text h1,
-.text h3 {
-  margin: 0;
-  font-weight: 400;
+.terms-conditions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.terms-conditions span {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  text-align: center;
+  font-weight: 450;
+  letter-spacing: -0.01em;
+  font-size: 15px;
+  line-height: 1.5;
 }
